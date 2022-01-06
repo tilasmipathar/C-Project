@@ -1,7 +1,7 @@
 # Cpp_Project
 To compile and run the game use the following command:-
 
-make
+make <br />
 ./game
 
 To clean use the following command:-
