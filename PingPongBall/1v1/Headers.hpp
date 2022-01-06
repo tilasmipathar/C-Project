@@ -1,0 +1,11 @@
+#include "../../SDL2/SDL.h"
+#include "../../SDL2/include/SDL_image.h"
+#include "../../SDL2/include/SDL_ttf.h"
+
+#include "Globals.hpp"
+#include "Functions.hpp"
+#include "Logic.hpp"
+#include "Game.hpp"
+#include "Draw.hpp"
+#include "PlayGame.hpp"
+//#include "Ball.hpp"
