@@ -3,7 +3,7 @@ all_sources=menu3.cpp brickbreaker/rungame.cpp brickbreaker/Brickbreaker.cpp bri
 all_objs=$(all_sources:.cpp=.o)					 #object files created from the .cpp files
 
 game: $(all_objs) 					 #creating excutable file
-		$(CC) $(all_sources) -lSDL2 -lSDL2main -lSDL2_mixer -lSDL2_ttf -lSDL2_image -g -o game 
+		$(CC) $(all_sources) -lSDL2 -lSDL2main -lSDL2_ttf -lSDL2_image -g -o game 
 %.o: %.c 							 #creating object files
 	$(CC) -c $(all_sources) 
 
